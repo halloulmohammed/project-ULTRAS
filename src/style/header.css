@@ -6,9 +6,12 @@
   background: whitesmoke;
   position: sticky;
   top: 0px;
-  z-index: 100;
+  z-index: 5;
+  box-shadow: 0px 5px 5px 0px rgba(168,166,166,0.75);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(168,166,166,0.75);
+-moz-box-shadow: 0px 5px 5px 0px rgba(168,166,166,0.75);
 }
-a {
+link, a {
   text-decoration: none;
   color: black;
 }

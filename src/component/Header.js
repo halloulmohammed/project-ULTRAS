@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/header.css";
 
 export const Header = () => {
   return (
     <div id="header-container">
-      <a href="home">
+      <Link to="home">
         <img src="./images/logo.png" alt="logo" id="logo" />
-      </a>
+      </Link>
       <ul id="nav-bar">
-        <a href="home">
-          <li id="active">Home</li>
-        </a>
-        <a href="product">
-          <li>Product</li>
-        </a>
-        <a href="latest">
-          <li>Latest</li>
-        </a>
-        <a href="contact">
-          <li>Contact</li>
-        </a>
+        <li id="active">
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/product">Products</Link>
+        </li>
+        <li>
+          <Link to="/latest">Latests</Link>
+        </li>
+        <li>
+          <a href="#footer">Contact</a>
+        </li>
       </ul>
       <div id="search-bar">
         <input placeholder="searching for..." />
