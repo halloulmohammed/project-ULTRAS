@@ -11,7 +11,7 @@
   background: whitesmoke;
   border-radius: 5px;
   padding: 15px;
-  gap: 5px;
+  gap: 3px;
 }
 
 .collection img {
@@ -20,11 +20,13 @@
 }
 .collection h2 {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color:#1d412f ;
 }
 .collection h3 {
   font-size: 1rem;
-  padding-bottom: 3px;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 .collection h4 {
   font-weight: 400;
@@ -42,6 +44,7 @@
   border-radius: 5px;
   background: white;
   cursor: pointer;
+  font-weight: 600;
 }
 .collection button:hover {
   color: white;

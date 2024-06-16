@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Latest = () => {
+export const Tifo = () => {
   return (
     <div>
-        <h1>latest</h1>
+        
     </div>
   )
 }

@@ -26,6 +26,11 @@
   color: #1d412f;
   margin: 30px;
 }
-.categ{
-    margin: 5px ;
+.categ a {
+  margin: 5px;
+  color: black;
 }
+.categ a:hover{
+  color: gray;
+}
+

@@ -7,11 +7,14 @@
   position: sticky;
   top: 0px;
   z-index: 5;
-  box-shadow: 0px 5px 5px 0px rgba(168,166,166,0.75);
--webkit-box-shadow: 0px 5px 5px 0px rgba(168,166,166,0.75);
--moz-box-shadow: 0px 5px 5px 0px rgba(168,166,166,0.75);
+  box-shadow: 0px 5px 5px 0px rgba(168, 166, 166, 0.75);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(168, 166, 166, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(168, 166, 166, 0.75);
 }
-link, a {
+i{
+  color: black;
+}
+link {
   text-decoration: none;
   color: black;
 }
@@ -23,20 +26,23 @@ link, a {
   list-style: none;
   gap: 30px;
 }
+#header-container #nav-bar li a {
+  text-decoration: none;
+  color: black;
+}
 #header-container #nav-bar li {
   font-family: "Poppins", sans-serif;
-  color: #666666;
   font-weight: 500;
   font-size: 1rem;
   position: relative;
 }
-#header-container #nav-bar li:hover {
-  color: black;
+#header-container #nav-bar li a:hover {
+  color: gray;
 }
-#header-container #nav-bar li:hover::after {
+#header-container #nav-bar li a:hover::after {
   content: "";
   position: absolute;
-  bottom: -2px; /* Adjust the distance from the text */
+  bottom:-2px; /* Adjust the distance from the text */
   left: 0;
   width: 40%;
   height: 2px;
@@ -56,4 +62,16 @@ link, a {
   outline: none;
   border: none;
   background: transparent;
+}
+#header-container li #media {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  color:black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+#header-container li #media :hover{
+  color: black;
 }

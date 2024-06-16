@@ -5,8 +5,8 @@ import "../style/header.css";
 export const Header = () => {
   return (
     <div id="header-container">
-      <Link to="home">
-        <img src="./images/logo.png" alt="logo" id="logo" />
+      <Link to="/">
+        <img src="/images/logo.png" alt="logo" id="logo" />
       </Link>
       <ul id="nav-bar">
         <li id="active">
@@ -16,11 +16,15 @@ export const Header = () => {
           <Link to="/product">Products</Link>
         </li>
         <li>
-          <Link to="/latest">Latests</Link>
+          <Link to="/article">Articles</Link>
         </li>
         <li>
-          <a href="#footer">Contact</a>
+         <Link to="/media">Media</Link>
         </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        
       </ul>
       <div id="search-bar">
         <input placeholder="searching for..." />
